@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    background-color: #E2CE1A;
+    padding: 14.8rem;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.login-section{
+    background-color: #36320A;
+    width: 304px;
+    height: 560px;
+}
+
+
+.titulo{
+color: #fff;
+font-size: 1.8rem;
+margin: .8rem;
+text-align: center;
+}
+
+.acesso{
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 3rem;
+    text-align: center;
+}
+
+.botao-principal{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #36320A;
+    margin: 2rem;
+    border-radius: 20px;
+    border: 5px solid white;
+    width: 232px;
+    height: 70px;
+}
+
+a{
+    font-size: 10px;
+    color: #fff;
+    padding: 0.75rem;
+    margin: 5rem;
+}
+
+.register-section{
+    background-color: #FEFAA1;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-section h2{
+    margin: 0;
+    font-size: 24px;
+}
+
+.register-section p{
+    margin: 10px 0;
+}
+
+.register-section form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E2CE1A;
+    border-radius: 4px;
+}
+
+.register-section button{
+    background-color: #36320A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
